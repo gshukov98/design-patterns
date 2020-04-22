@@ -8,13 +8,17 @@ public class ObserverMain {
 		Observer obs1 = new TopicSubscriber("Observer 1");
 		Observer obs2 = new TopicSubscriber("Observer 2");
 		Observer obs3 = new TopicSubscriber("Observer 3");
+		Observer obs4 = new TopicSubscriber("Observer 4");
 		
 		topic.subscribe(obs1);
 		topic.subscribe(obs2);
 		topic.subscribe(obs3);
+		topic.subscribe(obs4);
+		
 		
 		topic.sertNewTopic("Breaking news! COVID 19");
 		topic.sertNewTopic("New topic was set");
+		topic.sertNewTopic("Test new topic");
 
 	}
 

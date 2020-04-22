@@ -17,6 +17,9 @@ public class CommandMain {
 		
 		remoteController.setCommand(lightsOnCommand);
 		remoteController.pressButton();
+		
+		remoteController.setCommand(lightsOffCommand);
+		remoteController.pressButton();
 	}
 
 }
