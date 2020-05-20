@@ -1,2 +1,6 @@
-/command/
-/observer/
+/composite/
+/proxy/
+/singleton/
+/fasada/
+/facade/
+/decorator/
