@@ -1,7 +1,2 @@
-/composite/
-/proxy/
-/singleton/
-/fasada/
-/facade/
-/decorator/
-/burgers/
+/chainofresponsibility/
+/state/
